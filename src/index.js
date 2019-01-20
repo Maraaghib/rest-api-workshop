@@ -1,1 +1,8 @@
-console.log('Bismil Laahir Rahmaanir Rahiimi - Jërëjëfé Sëriñ Tuubaa');
+let express = require('express')
+
+let app =  express()
+
+app.use(express.static('public'))
+
+const PORT = process.env.PORT || 3000
+app.listen(PORT, () => console.info(`Server listen on port ${PORT}`))
