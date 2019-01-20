@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Maraaghib/rest-api-workshop/issues"
   },
-  "homepage": "https://github.com/Maraaghib/rest-api-workshop#readme"
+  "homepage": "https://github.com/Maraaghib/rest-api-workshop#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
