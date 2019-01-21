@@ -1,1 +1,1 @@
-A inimal REST API App using Express.js and MongoDB
+A minimal REST API App using Express.js and MongoDB
